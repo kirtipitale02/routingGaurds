@@ -1,0 +1,16 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class UserService {
+
+  constructor() { }
+  isAdminRights():boolean{
+    return false;
+  }
+
+  isChildRights():boolean{
+    return false;
+  }
+}
